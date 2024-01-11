@@ -1,6 +1,16 @@
 # CORN, MARTINEZ, BURRESS, and WAINWRIGHT at Systematic Biology
 #doi: https://doi.org/10.1093/sysbio/syaa091
 
+
+
+#NOTE ADDED JANUARY 2024
+# Please use caution when using this script to fit Brownian Motion and Ornstein-Uhlenbeck models with OUwie! 
+# This code was generated prior to changes to package OUwie that have major effects on the structuring of the returned results object (the "solution"). 
+# These changes will result in erroneous results when fitting single- or multi-rate models with this script verbatim.
+# You can fix these errors by checking the structure of the solution you save in Lines 713 & 834 and modifying the appropriate assignments of values in lines 717-732 & 838-854.
+# For up to date information on the structure of OUwie's solution, please see the user guide and vignette at https://cran.r-project.org/package=OUwie
+
+
 ########################################
 #         LOADING IN THE DATA          #
 ########################################
